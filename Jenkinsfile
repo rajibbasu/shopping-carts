@@ -29,7 +29,6 @@ pipeline{
                 sh 'mvn package -DskipTests'
             }
         }
-    }
         stage('archive'){
             steps{
                 echo 'this is the archive job'
