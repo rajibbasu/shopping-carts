@@ -32,7 +32,7 @@ pipeline{
         stage('archive'){
             steps{
                 echo 'this is the archive job'
-                archiveArtifacts '**/tarfet/*.jar'
+                archiveArtifacts '**/target/*.jar'
             }
         }
     }
